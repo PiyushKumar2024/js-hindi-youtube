@@ -6,11 +6,13 @@ let score = "hitesh"
 let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
+//the NUmber is somewhat similar to wrapper class in java
 
 
 // "33" => 33
 // "33abc" => NaN
 //  true => 1; false => 0
+//null->0
 
 let isLoggedIn = "hitesh"
 
@@ -26,6 +28,7 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
+//empty will give false else true
 
 // *********************** Operations ***********************
 
@@ -45,16 +48,18 @@ let str2 = " hitesh"
 
 let str3 = str1 + str2
 // console.log(str3);
+//hello hitesh
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2); 12
+// console.log(1 + "2"); 12
+// console.log("1" + 2 + 2); 122
+// console.log(1 + 2 + "2"); 32
+//string ke baad all as string trat krenge
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true); 1 as true will be converted to its num
+// console.log(+""); //0
 
 let num1, num2, num3
 
