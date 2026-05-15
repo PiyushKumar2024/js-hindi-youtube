@@ -12,13 +12,14 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+console.log(id === anotherId);//false
 
 // const bigNumber = 3456543576654356754n
 
 
 
 // Reference (Non primitive)
+//dynamically typed language
 
 // Array, Objects, Functions
 
@@ -31,7 +32,23 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");
 }
+//type object function
 
 console.log(typeof anotherId);
+
+Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
