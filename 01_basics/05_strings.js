@@ -4,6 +4,7 @@ const repoCount = 50
 // console.log(name + repoCount + " Value");
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+//string interpolation
 
 const gameName = new String('hitesh-hc-com')
 
@@ -13,14 +14,15 @@ const gameName = new String('hitesh-hc-com')
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
+//np change to originl due to primitive
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
-console.log(newString);
+console.log(newString);//willnt take negative
 
 const anotherString = gameName.slice(-8, 4)
-console.log(anotherString);
+console.log(anotherString);//can take negeative
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
