@@ -42,6 +42,8 @@ function loginUserMessage(username = "sam"){
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
+rest operator
+num1=[500,2000] rest val1 aur val 2 mein jayega
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
