@@ -23,7 +23,7 @@ const JsUser = {
 // console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
-// Object.freeze(JsUser)
+// Object.freeze(JsUser) //cant propagate changes
 JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);
 
@@ -34,5 +34,7 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
 
-console.log(JsUser.greeting());
+console.log(JsUser.greeting());//imme exec
 console.log(JsUser.greetingTwo());
+
+console.log(ksuser.greeting)//as reference
