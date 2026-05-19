@@ -13,6 +13,7 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
+scope in dom is different frm scope frm scope in normal node env one
 
 function one(){
     const username = "hitesh"
