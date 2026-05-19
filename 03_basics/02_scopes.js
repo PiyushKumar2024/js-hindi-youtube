@@ -27,6 +27,7 @@ function one(){
      two()
 
 }
+closure 
 
 // one()
 
@@ -45,7 +46,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5))//np error
 
 function addone(num){
     return num + 1
@@ -53,7 +54,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5) //error due to hoisting
 const addTwo = function(num){
     return num + 2
 }
