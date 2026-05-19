@@ -9,10 +9,18 @@ const balance = new Number(100)
 
 const otherNumber = 123.8966
 
-// console.log(otherNumber.toPrecision(4));
+// console.log(otherNumber.toPrecision(4)); 123.9
+//the parameter in precision will define how may difgits to tkae account for
+//if 3 then ans will be 124
 
 const hundreds = 1000000
 // console.log(hundreds.toLocaleString('en-IN'));
+//for conversion in indan type
+//no param then indian
+
+Number.MIN_VALUE
+Number.MAX_VALUE
+same for safe integer
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
@@ -31,4 +39,4 @@ console.log(Math.floor(Math.random()*10) + 1);
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+console.log(Math.floor(Math.random() * (max - min + 1)) + min) //generating in a range
