@@ -14,10 +14,12 @@ const user = {
 // user.welcomeMessage()
 
 // console.log(this);
+in node or other programming env the current global context in empty
+in browser it is window obj
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username); empty cant access the username
 // }
 
 // chai()
@@ -32,18 +34,19 @@ const chai =  () => {
     console.log(this);
 }
 
+in arrow func this is empty obj just like global node obj
 
 // chai()
 
 // const addTwo = (num1, num2) => {
-//     return num1 + num2
+//     return num1 + num2 
 // }
 
 // const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "hitesh"}) necessary for obj returns
 
 
 console.log(addTwo(3, 4))
