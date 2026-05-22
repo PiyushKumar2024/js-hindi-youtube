@@ -1,4 +1,5 @@
 // Immediately Invoked Function Expressions (IIFE)
+prevent from global pollution
 
 
 (function chai(){
