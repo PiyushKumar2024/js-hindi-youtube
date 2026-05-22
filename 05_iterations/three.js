@@ -36,5 +36,5 @@ const myObject = {
 
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value);
-    
+    error obj can be accessed by for of loop
 // }
