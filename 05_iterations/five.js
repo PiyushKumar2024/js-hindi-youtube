@@ -1,5 +1,7 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
+HIGHER ORDER FUNCTIONS WILL REQUIRE A CALLBACK
+WILL APPLY THAT FUNCTION TO ALL THE ELEMENTS
 // coding.forEach( function (val){
 //     console.log(val);
 // } )
@@ -12,8 +14,10 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // }
 
+PASS REFERENCE
 // coding.forEach(printMe)
 
+ALSO HAVE IND AND ARR LIST AS PARAM AS WELL
 // coding.forEach( (item, index, arr)=> {
 //     console.log(item, index, arr);
 // } )
