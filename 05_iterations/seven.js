@@ -6,5 +6,6 @@ const newNums = myNumers
                 .map((num) => num * 10 )
                 .map( (num) => num + 1)
                 .filter( (num) => num >= 40)
+layered app the lower one will get the uper value
 
 console.log(newNums);
