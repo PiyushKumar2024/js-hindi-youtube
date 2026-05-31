@@ -1,6 +1,6 @@
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
-
+FOR EACH DONT RETURN ANYTHING WHETHER YOU WRITE RETURN OR NOT
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
 //     return item
@@ -10,6 +10,8 @@
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+WILL APPLY THE FILTER AND RETTURN THE ELEMENT THAT PASSED THAT
+EITHER RETURN OR DO THE EXPLICIT ONE
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
