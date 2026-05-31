@@ -6,12 +6,14 @@ const myObject = {
 }
 
 for (const key in myObject) {
+    FOR OBJECT ITERATION
     //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 
 const programming = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in programming) {
+    ARRAYS ALSO HAS KEYS
     //console.log(programming[key]);
 }
 
@@ -24,3 +26,4 @@ for (const key in programming) {
 // for (const key in map) {
 //     console.log(key);
 // }
+NO RESULT AS MAP IS NOT ITERABLE
