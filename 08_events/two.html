@@ -18,9 +18,10 @@
     }
 
     const changeMe = setTimeout(changeText, 2000)
-
+    will only do once after that time interval
     document.querySelector('#stop').addEventListener('click', function(){
-        clearTimeout(changeMe)
+        clearTimeout(changeMe) 
+        clear that timeout frm that queue
         console.log("STOPPED")
     })
 </script>
