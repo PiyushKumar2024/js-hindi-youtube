@@ -19,9 +19,11 @@
    </div>
 </body>
 <script>
+    events triggered by activites and are generally sequentially run
     // document.getElementById('owl').onclick = function(){
     //     alert("owl clicked")
     // }
+    this approach willnt allow propagation4
 
      // attachEvent()
     // jQuery - on
@@ -34,11 +36,17 @@
     // document.getElementById('images').addEventListener('click', function(e){
     //     console.log("clicked inside the ul");
     // }, false)
+    event object is passed in the callback
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+    //     e.stopPropagation() 
+    stoppping the bubbling
     // }, false)
+    event bubbling where a child also gets parents event listner
+    bubbling happens bottom up ffrm child event to parent event
+
+    agar tesra true to bubbling top down hogi
     
     // document.getElementById('google').addEventListener('click',function(e){
     //     e.preventDefault();
