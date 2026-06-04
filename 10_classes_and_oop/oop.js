@@ -32,6 +32,12 @@ function User(username, loginCount, isLoggedIn){
     return this
 }
 
+new keyword four step function 
+1.empty obj creation
+2.param passing that you gave
+3.binding to thie
+4.returning
+
 const userOne = new User("hitesh", 12, true)
 const userTwo = new User("ChaiAurCode", 11, false)
 console.log(userOne.constructor);
