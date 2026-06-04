@@ -1,3 +1,4 @@
+js is a prototype based language rest of the things are syntactic sugar on top
 const user = {
     username: "hitesh",
     loginCount: 8,
