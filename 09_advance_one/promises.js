@@ -3,13 +3,14 @@ const promiseOne = new Promise(function(resolve, reject){
     // DB calls, cryptography, network
     setTimeout(function(){
         console.log('Async task is compelete');
+        have to link the the resolve in the promise
         resolve()
     }, 1000)
 })
 
 promiseOne.then(function(){
     console.log("Promise consumed");
-})
+}) execute when it is connected as completed promise provides a theanble onj
 
 new Promise(function(resolve, reject){
     setTimeout(function(){
@@ -23,12 +24,12 @@ new Promise(function(resolve, reject){
 
 const promiseThree = new Promise(function(resolve, reject){
     setTimeout(function(){
-        resolve({username: "Chai", email: "chai@example.com"})
+        resolve({username: "Chai", email: "chai@example.com"}) //parameter passing
     }, 1000)
 })
 
-promiseThree.then(function(user){
-    console.log(user);
+promiseThree.then(function(user  ){ //catching parameter
+    console.log(user); 
 })
 
 const promiseFour = new Promise(function(resolve, reject){
@@ -43,14 +44,14 @@ const promiseFour = new Promise(function(resolve, reject){
 })
 
  promiseFour
- .then((user) => {
+ .then((user  //catching the passed obj) => {
     console.log(user);
     return user.username
 }).then((username) => {
     console.log(username);
 }).catch(function(error){
     console.log(error);
-}).finally(() => console.log("The promise is either resolved or rejected"))
+}).finally(() => console.log("The promise is either resolved or rejected")) //run always just like finally
 
 
 
